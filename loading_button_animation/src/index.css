@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+  width: 100%;
+}
+.save-btn {
+  @apply h-12 w-64 border bg-[#29ca8e] text-xl rounded-sm shadow text-white grid justify-center items-center;
+}
+.loader {
+  @apply pointer-events-none w-8 h-8 rounded-full border-2 border-transparent border-t-white animate-an1;
+}
