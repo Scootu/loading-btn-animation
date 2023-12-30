@@ -15,8 +15,11 @@ body {
   width: 100%;
 }
 .save-btn {
-  @apply h-12 w-64 border bg-[#29ca8e] text-xl rounded-sm shadow text-white grid justify-center items-center;
+  @apply h-12 w-64 border bg-[#29ca8e] text-xl rounded-sm shadow text-white grid justify-center items-center transition-[0.2s];
 }
 .loader {
   @apply pointer-events-none w-8 h-8 rounded-full border-2 border-transparent border-t-white animate-an1;
+}
+.changed-btn {
+  @apply bg-[#f1f5f4] text-[#333] pointer-events-none;
 }
